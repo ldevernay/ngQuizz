@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 
+import { Quizz } from './Quizz';
+
 @Component({
-  selector: 'app-root',
+  selector: 'quizz-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Quizz';
+  quizz: Quizz;
+  quizzes: Quizz[];
 }
