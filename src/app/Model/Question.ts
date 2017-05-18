@@ -1,6 +1,5 @@
-export class Quizz {
+export class Question {
   question: string;
   correctAnswer: string;
   incorrectAnswers: string[];
-  score: number;
 }

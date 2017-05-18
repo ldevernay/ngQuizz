@@ -5,7 +5,11 @@
   <div class="col-sm-5">
     <div class="card">
       <div class="section">
-        <h3>{{quizz.question}}</h3>
+        <ul>
+          <li *ngFor="let item of items">
+            {{item}}
+          </li>
+        </ul>
       </div>
     </div>
   </div>
